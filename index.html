@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DEMO</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+	
+		<section class="section__demo">
+	<div class="demo" id="demo">
+		<div class="demo__content">
+			<div class="content__box">
+				<h1 class="demo__title">Демо-версия</h1>
+				<p class="demo__text">
+					За 18 лет деятельности было реализовано более 500 крупных, а так же,
+					не менее 2500 средних и малых проектов. Используя знания и накопленный
+					опыт мы можем предложить
+				</p>
+				<button class="demo__button" id="openForm">
+					<span>Попробовать бесплатно</span>
+					<img
+						class="demo__button-img"
+						src="./img/icons/arrowBtn.png"
+						alt="Arrow Button" />
+				</button>
+			</div>
+		</div>
+		<div class="demo__img">
+			<div class="img__box">
+				<img src="./img/immages/img.png" alt="" />
+			</div>
+		</div>
+	</div>
+
+	<div class="demo__form-box none" id="demoFormBox">
+		<div class="container__close">
+			<button class="close-btn" id="demoClose"></button>
+		</div>
+
+		<form class="demo__form" action="index.html" method="get">
+			<p class="form__title">Войти в систему</p>
+
+			<div class="inputs__form-box">
+				<div class="input__areas">
+					<input
+						class="text__input"
+						type="text"
+						id="mailInput"
+						placeholder="Email/Телефон"
+						tabindex="1" />
+					<input
+						class="text__input"
+						type="password"
+						id="passwordInput"
+						placeholder="Пароль"
+						tabindex="2" />
+				</div>
+
+				<div class="actions__form-box">
+					<div class="remember__box">
+						<input
+							class="checkbox__input"
+							type="checkbox"
+							id="checkboxInput"
+							tabindex="3" />
+						<label for="checkboxInput" class="checkbox__text">
+							Запомнить пароль
+						</label>
+					</div>
+
+					<button
+						class="restore__input"
+						type="button"
+						id="restoreInput"
+						tabindex="4">
+						Восстановить
+					</button>
+				</div>
+			</div>
+
+			<div class="buttons__form-box">
+				<button class="submit__input" type="submit" id="signIn" tabindex="5">
+					Войти
+				</button>
+				<button class="submit__input" type="submit" id="signUp" tabindex="6">
+					Зарегистрироваться
+				</button>
+			</div>
+		</form>
+	</div>
+</section>
+
+	
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

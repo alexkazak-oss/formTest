@@ -1,0 +1,1 @@
+!function(){"use strict";!function(){const e=document.getElementById("demoClose"),n=document.getElementById("openForm"),t=document.getElementById("demoFormBox");n&&(e.addEventListener("click",(function(){t.classList.toggle("none")})),n.addEventListener("click",(function(){t.classList.remove("none")})))}()}();
